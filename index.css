@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("img/bg.png");
+    background-color: #262626;
+    margin: 0;
+}
+
+#timer {
+    font-size: 2em;
+    color: #7b7b7b;
+    text-align: center;
+}
