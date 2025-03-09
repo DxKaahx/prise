@@ -3,7 +3,7 @@ const tickSound = new Audio("tick.wav"); // Certifique-se de que o arquivo de so
 
 // Reproduz o som quando a página carrega
 // Defina o horário de liberação (ano, mês-1, dia, hora, minuto, segundo)
-const releaseDate = new Date(2026, 0, 1, 0, 0, 0); // 5 de março de 2025, 00:00:00
+const releaseDate = new Date(2025, 2, 9, 9, 35, 0); // 5 de março de 2025, 00:00:00
 
 function updateTimer() {
     tickSound.play();
@@ -12,7 +12,7 @@ function updateTimer() {
 
     if (timeLeft <= 0) {
         // Redireciona para a outra página quando o tempo acabar
-        window.location.href = "joke.html";
+        window.location.href = "main.html";
     } else {
         // Calcula horas, minutos e segundos restantes
         const hours = Math.floor(timeLeft / (1000 * 60 * 60));
