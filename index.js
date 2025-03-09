@@ -3,7 +3,7 @@ const tickSound = new Audio("tick.wav"); // Certifique-se de que o arquivo de so
 
 // Reproduz o som quando a página carrega
 // Defina o horário de liberação (ano, mês-1, dia, hora, minuto, segundo)
-const releaseDate = new Date(2025, 2, 9, 9, 35, 0); // 5 de março de 2025, 00:00:00
+const releaseDate = new Date(2025, 2, 9, 9, 38, 0); // 5 de março de 2025, 00:00:00
 
 function updateTimer() {
     tickSound.play();
