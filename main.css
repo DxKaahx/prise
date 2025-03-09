@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/flowerbg.png);
+    background-color: #68b9ff;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    font-family: "Concert One", sans-serif;
+    border: 3px solid #68b9ff;
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+    background-color: aliceblue;
+
+    & h1 {
+        text-align: center;
+    }
+    & p {
+        margin: 7px 7px;
+    }
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+}
